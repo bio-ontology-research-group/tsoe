@@ -1,8 +1,8 @@
 # Task Specific Ontology Evaluation
-# Guide to the Ontology evaluation data
+## Guide to the Ontology evaluation data
 - The data and source code can be accessed at: http://bio2vec.net/data/goplus_contribution/
 - The data folder contains two main directories *source* and *ontologies*:
-## Source:
+### Source:
 - This directory contains the main source code used in this project:
     - *ProcessOntology.groovy*: used to reason over ontologies and extract axioms and classes.
     - *getMetadata.groovy*: used to extract metadata annotation properties from ontologies.
@@ -14,7 +14,7 @@
     - *process_vectors.py*: used to simplify the vectors output for further processing by merging each protein's vector in one line.
     - *getVecsOnly.pl*: used to extract the numerical vectors only from Word2Vec output.
     - *getCosineSim.py*: used to calculate the pairwise vector cosine similarity for a list of protein pairs in an input file.
-## Ontologies:
+### Ontologies:
 - This directory contains a set of subdirectories, each corresponding to one of the following ontologies: GO, GO-PLUS, CL, CHEBI, UBERON, PO, PATO, SO, FAO, OBA, CARO, PR, NCBITaxon and Phenomenet.
 - Each of the directories contains the following files:
     -   *axioms.lst*: all logical axioms of that ontology.
