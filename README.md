@@ -1,6 +1,6 @@
 # Task Specific Ontology Evaluation
 ## Guide to the Ontology evaluation data
-- The data and source code can be accessed at: http://bio2vec.net/data/goplus_contribution/
+- The data and source code usedin this project can be accessed at: http://bio2vec.net/data/goplus_contribution/
 - The data folder contains two main directories *source* and *ontologies*:
 ### Source:
 - This directory contains the main source code used in this project:
